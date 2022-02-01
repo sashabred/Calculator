@@ -31,6 +31,8 @@ namespace Calculator
         {
             this.but_pow = new System.Windows.Forms.Button();
             this.but_sqrt = new System.Windows.Forms.Button();
+            this.but_x2 = new System.Windows.Forms.Button();
+            this.butt_recnum = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // but_pow
@@ -51,22 +53,44 @@ namespace Calculator
             this.but_sqrt.Name = "but_sqrt";
             this.but_sqrt.Size = new System.Drawing.Size(48, 33);
             this.but_sqrt.TabIndex = 63;
-            this.but_sqrt.Text = "sqrt";
+            this.but_sqrt.Text = "√";
             this.but_sqrt.UseVisualStyleBackColor = true;
             this.but_sqrt.Click += new System.EventHandler(this.but_sqrt_Click_1);
-            
+            // 
+            // but_x2
+            // 
+            this.but_x2.Location = new System.Drawing.Point(289, 188);
+            this.but_x2.Name = "but_x2";
+            this.but_x2.Size = new System.Drawing.Size(48, 29);
+            this.but_x2.TabIndex = 64;
+            this.but_x2.Text = "X^2";
+            this.but_x2.UseVisualStyleBackColor = true;
+            this.but_x2.Click += new System.EventHandler(this.button1_Click);
+            // 
+            // butt_recnum
+            // 
+            this.butt_recnum.Location = new System.Drawing.Point(289, 235);
+            this.butt_recnum.Name = "butt_recnum";
+            this.butt_recnum.Size = new System.Drawing.Size(51, 29);
+            this.butt_recnum.TabIndex = 65;
+            this.butt_recnum.Text = "1/x";
+            this.butt_recnum.UseVisualStyleBackColor = true;
+            this.butt_recnum.Click += new System.EventHandler(this.butt_recnum_Click);
             // 
             // Form2
             // 
             this.ClientSize = new System.Drawing.Size(352, 304);
+            this.Controls.Add(this.butt_recnum);
+            this.Controls.Add(this.but_x2);
             this.Controls.Add(this.but_sqrt);
             this.Controls.Add(this.but_pow);
             this.Name = "Form2";
             this.Controls.SetChildIndex(this.but_pow, 0);
             this.Controls.SetChildIndex(this.but_sqrt, 0);
+            this.Controls.SetChildIndex(this.but_x2, 0);
+            this.Controls.SetChildIndex(this.butt_recnum, 0);
             this.ResumeLayout(false);
             this.PerformLayout();
-            
 
         }
 
@@ -74,5 +98,7 @@ namespace Calculator
 
         private System.Windows.Forms.Button but_pow;
         private System.Windows.Forms.Button but_sqrt;
+        private System.Windows.Forms.Button but_x2;
+        private System.Windows.Forms.Button butt_recnum;
     }
 }

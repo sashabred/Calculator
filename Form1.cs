@@ -604,7 +604,9 @@ namespace Calculator
 			Delenie = 4,
             Square =5,
             Pow = 6,
-            Sqrt=7
+            Sqrt=7,
+            X2 = 8,
+            Recnum = 9
 		}
 
 	/// <summary>
@@ -778,6 +780,7 @@ namespace Calculator
                         resultatVichisleniy = Math.Sqrt(pervoeChislo);
                         proverkaOshibok = true;
                         break;
+
 					default:
 						proverkaOshibok = false;
 						break;
@@ -795,7 +798,17 @@ namespace Calculator
                             resultatVichisleniy = Math.Sqrt(pervoeChislo);
                             proverkaOshibok = true;
                             break;
-                        default:
+
+                    case Deystvie.X2:
+                        resultatVichisleniy = pervoeChislo*pervoeChislo;
+                        proverkaOshibok = true;
+                        break;
+                    case Deystvie.Recnum:
+                        resultatVichisleniy = 1/pervoeChislo;
+                        proverkaOshibok = true;
+                        break;
+
+                    default:
                             proverkaOshibok = false;
                             break;
                     }

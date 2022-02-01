@@ -32,5 +32,15 @@ namespace Calculator
         {
             mehanizmcalkulyatora.DeystvieCalculatora(mehanizmcalkulyatora.Deystvie.Sqrt);
         }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            mehanizmcalkulyatora.DeystvieCalculatora(mehanizmcalkulyatora.Deystvie.X2);
+        }
+
+        private void butt_recnum_Click(object sender, EventArgs e)
+        {
+            mehanizmcalkulyatora.DeystvieCalculatora(mehanizmcalkulyatora.Deystvie.Recnum);
+        }
     }
 }
