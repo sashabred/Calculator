@@ -117,7 +117,7 @@ namespace Calculator
             this.txtOutput.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.txtOutput.Location = new System.Drawing.Point(12, 38);
             this.txtOutput.Name = "txtOutput";
-            this.txtOutput.Size = new System.Drawing.Size(300, 30);
+            this.txtOutput.Size = new System.Drawing.Size(252, 30);
             this.txtOutput.TabIndex = 60;
             this.txtOutput.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
             this.txtOutput.TextChanged += new System.EventHandler(this.txtOutput_TextChanged);
@@ -128,7 +128,7 @@ namespace Calculator
             this.btn_sbros.AccessibleName = "reset";
             this.btn_sbros.BackColor = System.Drawing.Color.Tomato;
             this.btn_sbros.Font = new System.Drawing.Font("Reem Kufi", 7.8F);
-            this.btn_sbros.Location = new System.Drawing.Point(235, 86);
+            this.btn_sbros.Location = new System.Drawing.Point(216, 74);
             this.btn_sbros.Name = "btn_sbros";
             this.btn_sbros.Size = new System.Drawing.Size(48, 92);
             this.btn_sbros.TabIndex = 0;
@@ -141,7 +141,7 @@ namespace Calculator
             this.btnChangesign.AccessibleName = "change sign";
             this.btnChangesign.BackColor = System.Drawing.Color.WhiteSmoke;
             this.btnChangesign.Font = new System.Drawing.Font("Reem Kufi", 7.8F);
-            this.btnChangesign.Location = new System.Drawing.Point(79, 225);
+            this.btnChangesign.Location = new System.Drawing.Point(60, 213);
             this.btnChangesign.Name = "btnChangesign";
             this.btnChangesign.Size = new System.Drawing.Size(48, 46);
             this.btnChangesign.TabIndex = 58;
@@ -154,7 +154,7 @@ namespace Calculator
             this.btnpoint.AccessibleName = "point ";
             this.btnpoint.BackColor = System.Drawing.Color.WhiteSmoke;
             this.btnpoint.Font = new System.Drawing.Font("Reem Kufi", 7.8F);
-            this.btnpoint.Location = new System.Drawing.Point(127, 225);
+            this.btnpoint.Location = new System.Drawing.Point(108, 213);
             this.btnpoint.Name = "btnpoint";
             this.btnpoint.Size = new System.Drawing.Size(48, 46);
             this.btnpoint.TabIndex = 57;
@@ -168,7 +168,7 @@ namespace Calculator
             this.btn_ravno.AccessibleName = "equal";
             this.btn_ravno.BackColor = System.Drawing.Color.DarkKhaki;
             this.btn_ravno.Font = new System.Drawing.Font("Reem Kufi", 7.8F);
-            this.btn_ravno.Location = new System.Drawing.Point(235, 178);
+            this.btn_ravno.Location = new System.Drawing.Point(216, 166);
             this.btn_ravno.Name = "btn_ravno";
             this.btn_ravno.Size = new System.Drawing.Size(48, 93);
             this.btn_ravno.TabIndex = 56;
@@ -182,7 +182,7 @@ namespace Calculator
             this.btn_delenie.BackColor = System.Drawing.Color.RosyBrown;
             this.btn_delenie.DialogResult = System.Windows.Forms.DialogResult.Cancel;
             this.btn_delenie.Font = new System.Drawing.Font("Reem Kufi", 7.8F);
-            this.btn_delenie.Location = new System.Drawing.Point(181, 86);
+            this.btn_delenie.Location = new System.Drawing.Point(162, 74);
             this.btn_delenie.Name = "btn_delenie";
             this.btn_delenie.Size = new System.Drawing.Size(48, 46);
             this.btn_delenie.TabIndex = 55;
@@ -195,7 +195,7 @@ namespace Calculator
             this.btn_umnojenie.AccessibleName = "multiply ";
             this.btn_umnojenie.BackColor = System.Drawing.Color.RosyBrown;
             this.btn_umnojenie.Font = new System.Drawing.Font("Reem Kufi", 7.8F);
-            this.btn_umnojenie.Location = new System.Drawing.Point(181, 132);
+            this.btn_umnojenie.Location = new System.Drawing.Point(162, 120);
             this.btn_umnojenie.Name = "btn_umnojenie";
             this.btn_umnojenie.Size = new System.Drawing.Size(48, 46);
             this.btn_umnojenie.TabIndex = 54;
@@ -208,7 +208,7 @@ namespace Calculator
             this.btn_plus.AccessibleName = "plus ";
             this.btn_plus.BackColor = System.Drawing.Color.Salmon;
             this.btn_plus.Font = new System.Drawing.Font("Reem Kufi", 7.8F);
-            this.btn_plus.Location = new System.Drawing.Point(181, 225);
+            this.btn_plus.Location = new System.Drawing.Point(162, 213);
             this.btn_plus.Name = "btn_plus";
             this.btn_plus.Size = new System.Drawing.Size(48, 46);
             this.btn_plus.TabIndex = 53;
@@ -221,7 +221,7 @@ namespace Calculator
             this.btn_minus.AccessibleName = "minus ";
             this.btn_minus.BackColor = System.Drawing.Color.Salmon;
             this.btn_minus.Font = new System.Drawing.Font("Reem Kufi", 7.8F);
-            this.btn_minus.Location = new System.Drawing.Point(181, 178);
+            this.btn_minus.Location = new System.Drawing.Point(162, 166);
             this.btn_minus.Name = "btn_minus";
             this.btn_minus.Size = new System.Drawing.Size(48, 47);
             this.btn_minus.TabIndex = 52;
@@ -235,7 +235,7 @@ namespace Calculator
             this.btn0.BackColor = System.Drawing.Color.WhiteSmoke;
             this.btn0.DialogResult = System.Windows.Forms.DialogResult.Cancel;
             this.btn0.Font = new System.Drawing.Font("Reem Kufi", 7.8F);
-            this.btn0.Location = new System.Drawing.Point(31, 225);
+            this.btn0.Location = new System.Drawing.Point(12, 213);
             this.btn0.Name = "btn0";
             this.btn0.Size = new System.Drawing.Size(48, 46);
             this.btn0.TabIndex = 51;
@@ -248,7 +248,7 @@ namespace Calculator
             this.btn9.AccessibleName = "nine ";
             this.btn9.BackColor = System.Drawing.Color.WhiteSmoke;
             this.btn9.Font = new System.Drawing.Font("Reem Kufi", 7.8F);
-            this.btn9.Location = new System.Drawing.Point(127, 86);
+            this.btn9.Location = new System.Drawing.Point(108, 74);
             this.btn9.Name = "btn9";
             this.btn9.Size = new System.Drawing.Size(48, 46);
             this.btn9.TabIndex = 50;
@@ -261,7 +261,7 @@ namespace Calculator
             this.btn8.AccessibleName = "eight ";
             this.btn8.BackColor = System.Drawing.Color.WhiteSmoke;
             this.btn8.Font = new System.Drawing.Font("Reem Kufi", 7.8F);
-            this.btn8.Location = new System.Drawing.Point(79, 86);
+            this.btn8.Location = new System.Drawing.Point(60, 74);
             this.btn8.Name = "btn8";
             this.btn8.Size = new System.Drawing.Size(48, 46);
             this.btn8.TabIndex = 49;
@@ -274,7 +274,7 @@ namespace Calculator
             this.btn7.AccessibleName = "seven ";
             this.btn7.BackColor = System.Drawing.Color.WhiteSmoke;
             this.btn7.Font = new System.Drawing.Font("Reem Kufi", 7.8F);
-            this.btn7.Location = new System.Drawing.Point(31, 86);
+            this.btn7.Location = new System.Drawing.Point(12, 74);
             this.btn7.Name = "btn7";
             this.btn7.Size = new System.Drawing.Size(48, 46);
             this.btn7.TabIndex = 48;
@@ -287,7 +287,7 @@ namespace Calculator
             this.btn6.AccessibleName = "six ";
             this.btn6.BackColor = System.Drawing.Color.WhiteSmoke;
             this.btn6.Font = new System.Drawing.Font("Reem Kufi", 7.8F);
-            this.btn6.Location = new System.Drawing.Point(127, 132);
+            this.btn6.Location = new System.Drawing.Point(108, 120);
             this.btn6.Name = "btn6";
             this.btn6.Size = new System.Drawing.Size(48, 46);
             this.btn6.TabIndex = 47;
@@ -300,7 +300,7 @@ namespace Calculator
             this.btn5.AccessibleName = "five ";
             this.btn5.BackColor = System.Drawing.Color.WhiteSmoke;
             this.btn5.Font = new System.Drawing.Font("Reem Kufi", 7.8F);
-            this.btn5.Location = new System.Drawing.Point(79, 132);
+            this.btn5.Location = new System.Drawing.Point(60, 120);
             this.btn5.Name = "btn5";
             this.btn5.Size = new System.Drawing.Size(48, 46);
             this.btn5.TabIndex = 46;
@@ -313,7 +313,7 @@ namespace Calculator
             this.btn4.AccessibleName = "four ";
             this.btn4.BackColor = System.Drawing.Color.WhiteSmoke;
             this.btn4.Font = new System.Drawing.Font("Reem Kufi", 7.8F);
-            this.btn4.Location = new System.Drawing.Point(31, 132);
+            this.btn4.Location = new System.Drawing.Point(12, 120);
             this.btn4.Name = "btn4";
             this.btn4.Size = new System.Drawing.Size(48, 46);
             this.btn4.TabIndex = 45;
@@ -326,7 +326,7 @@ namespace Calculator
             this.btn3.AccessibleName = "three ";
             this.btn3.BackColor = System.Drawing.Color.WhiteSmoke;
             this.btn3.Font = new System.Drawing.Font("Reem Kufi", 7.8F);
-            this.btn3.Location = new System.Drawing.Point(127, 178);
+            this.btn3.Location = new System.Drawing.Point(108, 166);
             this.btn3.Name = "btn3";
             this.btn3.Size = new System.Drawing.Size(48, 47);
             this.btn3.TabIndex = 44;
@@ -339,7 +339,7 @@ namespace Calculator
             this.btn2.AccessibleName = "two ";
             this.btn2.BackColor = System.Drawing.Color.WhiteSmoke;
             this.btn2.Font = new System.Drawing.Font("Reem Kufi", 7.8F);
-            this.btn2.Location = new System.Drawing.Point(79, 178);
+            this.btn2.Location = new System.Drawing.Point(60, 166);
             this.btn2.Name = "btn2";
             this.btn2.Size = new System.Drawing.Size(48, 47);
             this.btn2.TabIndex = 43;
@@ -352,7 +352,7 @@ namespace Calculator
             this.btn1.AccessibleName = "one ";
             this.btn1.BackColor = System.Drawing.Color.WhiteSmoke;
             this.btn1.Font = new System.Drawing.Font("Reem Kufi", 7.8F);
-            this.btn1.Location = new System.Drawing.Point(31, 178);
+            this.btn1.Location = new System.Drawing.Point(12, 166);
             this.btn1.Name = "btn1";
             this.btn1.Size = new System.Drawing.Size(48, 47);
             this.btn1.TabIndex = 42;
@@ -374,7 +374,7 @@ namespace Calculator
             this.standartFormToolStripMenuItem});
             this.menuStrip1.Location = new System.Drawing.Point(0, 0);
             this.menuStrip1.Name = "menuStrip1";
-            this.menuStrip1.Size = new System.Drawing.Size(338, 28);
+            this.menuStrip1.Size = new System.Drawing.Size(278, 28);
             this.menuStrip1.TabIndex = 61;
             this.menuStrip1.Text = "menuStrip1";
             // 
@@ -397,7 +397,7 @@ namespace Calculator
             // 
             this.AutoScaleBaseSize = new System.Drawing.Size(6, 15);
             this.BackColor = System.Drawing.Color.LightSalmon;
-            this.ClientSize = new System.Drawing.Size(338, 304);
+            this.ClientSize = new System.Drawing.Size(278, 274);
             this.Controls.Add(this.menuStrip1);
             this.Controls.Add(this.txtOutput);
             this.Controls.Add(this.btn_sbros);

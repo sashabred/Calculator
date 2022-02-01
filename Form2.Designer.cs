@@ -37,8 +37,8 @@ namespace Calculator
             // 
             // but_pow
             // 
-            this.but_pow.BackColor = System.Drawing.Color.PowderBlue;
-            this.but_pow.Location = new System.Drawing.Point(289, 86);
+            this.but_pow.BackColor = System.Drawing.Color.LightSkyBlue;
+            this.but_pow.Location = new System.Drawing.Point(270, 74);
             this.but_pow.Name = "but_pow";
             this.but_pow.Size = new System.Drawing.Size(48, 46);
             this.but_pow.TabIndex = 62;
@@ -49,37 +49,40 @@ namespace Calculator
             // but_sqrt
             // 
             this.but_sqrt.AccessibleName = "sqrt";
-            this.but_sqrt.Location = new System.Drawing.Point(289, 139);
+            this.but_sqrt.BackColor = System.Drawing.Color.LightSkyBlue;
+            this.but_sqrt.Location = new System.Drawing.Point(270, 120);
             this.but_sqrt.Name = "but_sqrt";
-            this.but_sqrt.Size = new System.Drawing.Size(48, 33);
+            this.but_sqrt.Size = new System.Drawing.Size(48, 46);
             this.but_sqrt.TabIndex = 63;
             this.but_sqrt.Text = "√";
-            this.but_sqrt.UseVisualStyleBackColor = true;
+            this.but_sqrt.UseVisualStyleBackColor = false;
             this.but_sqrt.Click += new System.EventHandler(this.but_sqrt_Click_1);
             // 
             // but_x2
             // 
-            this.but_x2.Location = new System.Drawing.Point(289, 188);
+            this.but_x2.BackColor = System.Drawing.Color.LightSkyBlue;
+            this.but_x2.Location = new System.Drawing.Point(270, 166);
             this.but_x2.Name = "but_x2";
-            this.but_x2.Size = new System.Drawing.Size(48, 29);
+            this.but_x2.Size = new System.Drawing.Size(48, 46);
             this.but_x2.TabIndex = 64;
             this.but_x2.Text = "X^2";
-            this.but_x2.UseVisualStyleBackColor = true;
+            this.but_x2.UseVisualStyleBackColor = false;
             this.but_x2.Click += new System.EventHandler(this.button1_Click);
             // 
             // butt_recnum
             // 
-            this.butt_recnum.Location = new System.Drawing.Point(289, 235);
+            this.butt_recnum.BackColor = System.Drawing.Color.LightSkyBlue;
+            this.butt_recnum.Location = new System.Drawing.Point(270, 213);
             this.butt_recnum.Name = "butt_recnum";
-            this.butt_recnum.Size = new System.Drawing.Size(51, 29);
+            this.butt_recnum.Size = new System.Drawing.Size(48, 46);
             this.butt_recnum.TabIndex = 65;
             this.butt_recnum.Text = "1/x";
-            this.butt_recnum.UseVisualStyleBackColor = true;
+            this.butt_recnum.UseVisualStyleBackColor = false;
             this.butt_recnum.Click += new System.EventHandler(this.butt_recnum_Click);
             // 
             // Form2
             // 
-            this.ClientSize = new System.Drawing.Size(352, 304);
+            this.ClientSize = new System.Drawing.Size(342, 283);
             this.Controls.Add(this.butt_recnum);
             this.Controls.Add(this.but_x2);
             this.Controls.Add(this.but_sqrt);

@@ -14,7 +14,7 @@ namespace Calculator
         public Form2()
         {
             InitializeComponent();
-            this.ClientSize = new System.Drawing.Size(370,351);
+            this.ClientSize = new System.Drawing.Size(330,300);
            
             baseMenuStrip.Visible = false;
             standartFormToolStripMenuItem.Visible = true;
